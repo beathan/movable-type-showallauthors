@@ -1,0 +1,6 @@
+name: Show All Authors Plugin
+id: ShowAllAuthors
+description: Transforms the list_entry template to show all authors in the list filter dropdown rather than recent users only.
+version: 1.0
+callbacks:
+	MT::App::CMS::template_param.list_entry: $ShowAllAuthors::ShowAllAuthors::Plugin::xfrm
