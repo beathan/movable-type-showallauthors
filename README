@@ -1,1 +1,7 @@
-Simply install in $MT_HOME/plugins/ShowAllAuthors/
+ShowAllAuthors uses a template parameter callback to change the list of authors (limited to 50 'recent' users) available in Manage -> Entries -> "Show only entries where user is...". Additionally, the list will contain names from bylines rather than account usernames to make sifting through a long list easier.
+
+To install:
+1. Copy to your MT plugins directory, e.g. "<your MT location>/plugins/"
+2. Enjoy
+
+Tested against MT4.31
